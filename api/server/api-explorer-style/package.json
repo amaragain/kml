@@ -1,0 +1,9 @@
+{
+  "name": "@gorn/api-explorer-style",
+  "version": "1.0.0",
+  "description": "Monorepo style for the Loopback API Explorer",
+  "private": true,
+  "license": "gorn",
+  "author": "",
+  "url": ""
+}

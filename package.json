@@ -1,0 +1,31 @@
+{
+  "name": "Practical-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "start": "node .",
+    "posttest": "npm run lint && nsp check",
+    "build:sdk": "./node_modules/.bin/lb-sdk api/server/server wellset/src/app/core/sdk -d ng2web -i disabled"
+  },
+  "devDependencies": {
+    "@angular/cli": "^7.1.0",
+    "@mean-expert/loopback-component-realtime": "^1.0.1",
+    "@mean-expert/loopback-sdk-builder": "^2.3.1",
+    "eslint": "^3.17.1",
+    "eslint-config-loopback": "^8.0.0",
+    "nsp": "^2.1.0"
+  },
+  "repository": {
+    "type": "",
+    "url": ""
+  },
+  "license": "UNLICENSED",
+  "description": "Practical Test",
+  "dependencies": {
+    "loopback-component-storage": "^3.5.0"
+  }
+}
